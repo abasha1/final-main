@@ -1,0 +1,316 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: lightgrey;
+  font-family: 'Ubuntu', sans-serif;
+}
+.bg {
+  background-image: url("./Components/Img/bgimg.jpg");
+  background-color: whitesmoke;
+  background-size: cover;
+}
+.ajax div:nth-child(odd){
+  background-color: rgb(132 13 13);
+}
+.ajax div:nth-child(even){
+  color: white;
+  background-color: black;
+}
+.ajax {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+}
+.ajax2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+}
+.ajax2 div:nth-child(odd){
+  background-color: rgb(0, 156, 177);
+}
+.ajax2 div:nth-child(even){
+  color: white;
+  background-color: rgb(23, 32, 28);
+}
+.ajaxname {
+  font-size: 25px;
+  padding: 0;
+}
+.head { 
+  display: flex;
+  background-color: black;
+}
+.head a {
+  padding-bottom: 10px;
+  padding-right: 70px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+h2 {
+  font-size: 15px;
+  color: white;
+  padding-left: 70px;
+  padding-right: 30px;
+  display: grid;
+}
+.pic1 {
+  display: inline-grid;
+  width: 45%;
+  padding: 20px;
+}
+/* h3 {
+  color: white;
+}
+p{
+  color: beige;
+} */
+/* button {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border: 0;
+  background-color: beige;
+} */
+input{
+  border: 0;
+  background-color: black;
+  color: beige;
+}
+.imgcarrousel{
+  position: relative;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+}
+.img{
+  position: relative;
+  border: 3px double white;
+  min-width: 100%;
+  height: 20%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#prev_Button{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 20%;
+  background: darkslategray;
+  opacity: 80%;
+  border: 2px double white;
+  margin: 0;
+}
+#next_Button{
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 20%;
+  background: darkslategray;
+  opacity: 80%;
+  border: 2px double white;
+  margin: 0;
+}
+.pic{
+  width: 100%;
+}
+.postdiv {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  margin: 40px;
+}
+#darkMode {
+  background: transparent url("./Components/Img/moon.png") no-repeat center;
+  background-size: 30px 30px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  float: right;
+  margin-bottom: 0;
+  margin-top: -10px;
+  margin-right: 20px;
+} 
+.aa {
+  color:rgb(87, 143, 248);
+  font-weight: 700;
+  font-size: 20px;
+}
+.as{
+  text-decoration: none;
+}
+#darkMode.clicked {
+  filter: none !important;
+  background-color: black;
+}
+body.light {
+  background-color: white;
+  color: black;
+}
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+@keyframes showup{
+  0%{opacity: 0;}
+  60%{opacity: 1;}
+  80%{opacity: 1;}
+  100%{opacity: 1;}
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+}
+20% {
+    opacity: 1;
+    width: 0px;
+}
+50% {
+    width: 375px;
+}
+80% {
+    opacity: 1;
+}
+100% {
+    opacity: 1;
+    width: 375px;
+}
+}
+
+@keyframes revealdev {
+  0% {
+    opacity: 0;
+    width: 0px;
+}
+30% {
+    opacity: 1;
+    width: 0px;
+}
+60% {
+    width: 375px;
+}
+70% {
+    opacity: 1;
+}
+100% {
+    opacity: 1;
+    width: 375px;
+}
+}
+.intro{
+  animation: showup 10s;
+}
+.intro {
+  display: inline-block;
+  overflow:hidden;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.im {
+  text-shadow: 2px 2px 4px black;
+  font-size: 165px;
+  color: rgb(255, 255, 255);
+  vertical-align: middle;
+}
+.rvl {
+  overflow: hidden;
+  animation-iteration-count: 1;
+  animation: reveal 10s;
+  vertical-align: middle;
+}
+.btmrvl {
+  overflow: hidden;
+  animation-iteration-count: 1;
+  animation: revealdev 9s;
+}
+.rvl span{
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 50px;
+  animation-iteration-count: 1;
+  animation: slidein 10s;
+}
+.btmrvl span{
+  text-shadow: 1px 1px 5px white;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+input{
+  margin: 20px;
+  display: grid;
+  color: white;
+  padding: 10px;
+  border: 3px rgb(255, 255, 255) solid;
+  border-radius: 10px;
+}
+.formbutton{
+  background-color: rgb(10, 10, 10) ;
+  color: white;
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.postbutton{
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font-size: 35px;
+    border: 0;
+    border-radius: 10px;
+    margin: 10px;
+}
+input:focus{
+  border:3px solid rgb(132 13 13);
+  border-radius: 10px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+[data-feedback] {
+  margin-bottom: 10px;  
+}
+
+[data-feedback].error {
+  color: red;
+}
+[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+[type=checkbox] + img {
+  cursor: pointer;
+  opacity: 0.3;
+}
+.img1 {
+  width: 30px;
+  border-radius: 50%;
+}
+[type=checkbox]:checked + img {
+  opacity: 1;
+  animation-duration: 4s;
+}
+.agreed{
+  font-weight: 600;
+}

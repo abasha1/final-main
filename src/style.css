@@ -1,0 +1,856 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(240, 240, 240);
+}
+@media only screen and (max-width : 600px){
+    @keyframes example {
+        from {top:0; left:-600px;}
+        to{top:0; left: 0;}
+    }
+    @keyframes example1 {
+        0% {top:0; left:-600px;}
+        50% {top:0; left:-600px;}
+        90% {top: 0; left:0;}
+        95% {top: 0; left:-5px;}
+        100% {top:0; left: 0;}
+    }   
+    @keyframes btn {
+	0% {left:-600px; transform: rotate(0deg); }
+	20% {left:-500px; transform: rotate(180deg);}
+	40% {left:-400px; transform: rotate(360deg); }
+	60% {left:-200px; transform: rotate(0deg); }
+	80% {left:-100px; transform: rotate(180deg); }
+	100% {left:0; transform: rotate(360deg);}
+    }
+    input{
+        position: relative;
+        animation-name: example;
+        animation-duration: 3s;
+    }
+    div.radios {
+        position: relative;
+        animation-name: example1;
+        animation-timing-function: ease;
+        animation-duration: 3s;
+    }
+    button {
+        animation-name: btn;
+        animation-timing-function: ease-out;
+        animation-duration: 3s;
+    }
+    h1{
+        margin: 20px 0;
+    }
+    p {
+        font-size: 10px;
+        margin: 0;
+    }
+    #face1 {
+        width: 140px;
+    }
+    .btmrvl {
+        margin-top: 30px;
+    }
+    .port {
+        background-position: left;
+    }
+    li {
+        padding: 0 10px;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    p {
+        font-size: 10px;
+    }
+    #api {
+        margin-left: 20px;
+    }
+    .icons {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: 25px;
+        margin-right: 25px;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 20px 10px 10px black;
+    }
+    .upwork {
+        visibility: hidden;
+    }
+    .work {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .slideshow {
+        width: 400px;
+    }
+    .text {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .dropdown {
+        overflow: hidden;
+    }
+    .drop {
+        height: 30px;
+    } 
+    .dropdown {
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        cursor: pointer;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+    }
+    .dropdown-content li {
+        padding: 12px 16px;
+        display: block;
+        border: 2px solid black;
+        box-shadow: inset 0 0 10px;
+    }
+    .show {
+        display: block;
+    }
+    .lis {
+          display: flex;
+    }
+}
+@media only screen and (min-width : 601px ) and (max-width : 900px){
+    @keyframes example {
+        from {top:0; left:-900px;}
+        to{top:0; left: 0;}
+    }
+    @keyframes example1 {
+        0% {top:0; left:-900px;}
+        50% {top:0; left:-900px;}
+        90% {top: 0; left:0;}
+        95% {top: 0; left:-5px;}
+        100% {top:0; left: 0;}
+    }
+    @keyframes btn {
+        0% {left:-900px; transform: rotate(0deg); }
+        20% {left:-700px; transform: rotate(180deg);}
+        40% {left:-500px; transform: rotate(360deg); }
+        60% {left:-300px; transform: rotate(0deg); }
+        80% {left:-100px; transform: rotate(180deg); }
+        100% {left:0; transform: rotate(360deg);}
+    }
+    input{
+        position: relative;
+        animation-name: example;
+        animation-duration: 3s;
+    }
+    div.radios {
+        position: relative;
+        animation-name: example1;
+        animation-timing-function: ease;
+        animation-duration: 3s;
+    }
+    button {
+        animation-name: btn;
+        animation-timing-function: ease-out;
+        animation-duration: 3s;
+    }
+    .sign {
+            display: block;
+    }
+    h1{
+        margin: 20px 0;
+    }
+    p {
+        margin: 10px 0;
+    }
+    #face1 {
+        width: 200px;
+    }
+    .btmrvl {
+        margin-top: 30px;
+    }
+    .port {
+        background-position: left;
+    }
+    li {
+        padding: 0 10px;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    p {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    h3 {
+        font-size: 50px;
+        margin: 20px;
+    }
+    #api {
+        margin-left: 50px;
+    }
+    .icons {
+        display: inline-grid;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 20px 5px 10px black;
+    }
+    .work {
+        font-size: 30px;
+    }
+    .upwork {
+        animation: slideinup 10s;
+        overflow: hidden;
+    }
+    .slideshow {
+        width: 600px;
+    }
+    .text {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .dropbtn {
+        display: none;
+    }
+}
+@media only screen and (min-width : 901px){
+    .sign {
+        display: inline-block;
+        width: 40%;
+        margin-left: 70px;
+    }
+    .slideshow {
+        width: 900px;
+    }
+    .text {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    p {
+        margin-bottom: 15px;
+    }
+    #face1 {
+        width: 200px;
+    }
+    .first {
+        display: inline-block;
+        width: 40%;
+    }
+    .sign label {
+        display: inline-block;
+    }
+    .emails{
+        display: none;
+    }
+    .line {
+        border-left: 6px solid indigo;
+        border-style: double;
+        height: 400px;
+        left: 50%;
+        display: inline-block;
+    }
+    @keyframes desktop {
+        from {top:0; right:-600px;}
+        to{top:0; right: 0;}
+    }
+    @keyframes desktop1 {
+        0% {top:0; right:-800px;}
+        50% {top:0; right:-800px;}
+        90% {top: 0; right:0;}
+        95% {top: 0; right:-5px;}
+        100% {top:0; right: 0;}
+    } 
+    @keyframes btn1 {
+        0% {right:-900px; transform: rotate(0deg); }
+        20% {right:-700px; transform: rotate(180deg);}
+        40% {right:-500px; transform: rotate(360deg); }
+        60% {right:-300px; transform: rotate(0deg); }
+        80% {right:-100px; transform: rotate(180deg); }
+        100% {right:0; transform: rotate(360deg);}
+    }
+    input{
+        position: relative;
+        animation-name: desktop;
+        animation-duration: 3s;
+    }
+    div.radios {
+        position: relative;
+        animation-name: desktop1;
+        animation-timing-function: ease;
+        animation-duration: 3s;
+    }
+    button {
+        animation-name: btn1;
+        animation-timing-function: ease-out;
+        animation-duration: 3s;
+    }
+    .port {
+        background-position: center;
+    }
+    .btmrvl { margin-top: 20px;}
+    li {
+        padding: 0 30px;
+    }
+    ul {
+        padding-left: 50px;
+    }
+    p {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    h3 {
+        font-size: 70px;
+        margin: 30px;
+    }
+    #api {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .icons {
+        display: inline-grid;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 20px 5px 10px black;
+    }
+    .work {
+        font-size: 30px;
+    }
+    .upwork {
+        /* animation-delay: 5s; */
+        animation: slideinup 10s;
+        overflow: hidden;
+    }
+    .dropbtn {
+        display: none;
+    }
+    
+}
+/* @media only screen and (min-width : 1200px){
+    
+} */
+
+::placeholder {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(32, 32, 32);
+    opacity: 0.7;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+#registration {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    color: indigo;
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+    color: indigo;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+p {
+    color: white;
+}
+.left img{
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+}
+.right img {
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgb(240, 240, 240);
+    border-radius: 12px;
+}
+.port {
+    background-image: url(../img/bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+/* #about {
+    display: none;
+} */
+.showabout {
+    display: none;
+}
+.shownabout p {
+    font-size: 20px;
+}
+.down img {
+    height: 40px;
+}
+.shownabout{
+    text-align: center;
+    background-color: rgb(29, 67, 84);
+    margin-top: 50px;
+}
+.shownabout .aboutme {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.shownabout li {
+    display: inline-block;
+    color: indigo;
+    font-weight: 700;
+    text-shadow: 2px 2px  4px white;
+    font-size: 20px;
+}
+.shownabout ul {
+    padding: 0;
+}
+.nav{
+    margin-top: 50px;
+}
+.sign_up {
+    border: 1px solid indigo;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    background-color: indigo;
+    text-align: right;
+}
+.signin {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.intro {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family:'Roboto';
+    font-weight:600;
+}
+.intr {
+    text-align: center;
+    margin-top: 130px;
+}
+.intro {
+    animation: showup 10s;
+}
+.im {
+    text-shadow: 2px 2px 4px black;
+    font-size: 120px;
+    color: indigo;
+    vertical-align: middle;
+}
+.rvl {
+    overflow: hidden;
+    animation-iteration-count: 1;
+    animation: reveal 10s;
+    vertical-align: middle;
+}
+.rvl span {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 50px;
+    animation-iteration-count: 1;
+    animation: slidein 10s;
+}
+.btmrvl {
+    overflow: hidden;
+    animation-iteration-count: 1;
+    animation: revealdev 9s;
+}
+.btmrvl span {
+    text-shadow: 1px 1px 5px white;
+    color: indigo;
+    font-size: 30px;
+}
+.createbtn {
+    padding: 8px 15px;
+    font-size: 30px;
+    border-radius: 12px;
+    color: white;
+    display: inline-grid;
+    text-shadow: 2px 2px 4px black;
+}
+.create {
+    text-align: center;
+    margin-top: 80px;
+}
+.work {
+    border: 5px solid white;
+    text-shadow: 2px 2px 4px black ;
+    color: white;
+    padding: 20px;
+    vertical-align: middle;
+    background-color: rgb(29, 67, 84);
+}
+.upwlogo {
+    height: 40px;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.upwtext {
+    display: inline-grid;
+    height: 30px;
+}
+.upwork {
+    padding: 0px 17px;
+    border: 5px solid white;
+    display: inline-block;
+    box-shadow: 2px 2px 4px black;
+    vertical-align: middle;
+    animation-iteration-count: 1;
+    background-color:rgb(29, 67, 84);
+}
+li {
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    font-size: 20px;
+}
+.signin{
+    float: right;
+}
+.icons img{
+    height: 40px;
+    margin-bottom: 8px;
+    border-radius: 12px;
+}
+@keyframes showup {
+    0% {opacity:0;}
+    60% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:1;}
+}
+@keyframes slideinup {
+    0% { opacity: 0;}
+    45% {opacity: 0;}
+    50% { margin-left:-200px; }
+    100% { margin-left:0px; }
+}
+@keyframes pop {
+    0% {margin-right: 30px;}
+    100% { margin: 0px}
+}
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+@keyframes revealdev {
+    0% {opacity:0;width:0px;}
+    30% {opacity:1;width:0px;}
+    70% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:1;width:355px;}
+}
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:1;width:355px;}
+}
+.imgs{
+    width: 100%;
+}
+.img1{
+    width: 30px;
+    border-radius: 50%;
+}
+.img2{
+    width: 30px;
+}
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+[type=radio] + img {
+    cursor: pointer;
+    opacity: 0.5;
+}
+[type=radio]:checked + img {
+    opacity: 1;
+    border-radius: 50%;
+    border: 2px solid  indigo;
+    width: 40px;
+}
+
+[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+[type=checkbox] + img {
+    cursor: pointer;
+    opacity: 0.3;
+}
+[type=checkbox]:checked + img {
+    opacity: 1;
+    animation-duration: 4s;
+}
+
+button {
+    background-color: indigo;
+    color: white;
+    border-radius: 12px 24px;
+    border: 0;
+    padding :10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.name {
+    display: inline-block;
+    padding: 10px;
+}
+.agreed a {
+    color: indigo;
+    font-weight: 700;
+}
+.email {
+    display: inline-block;
+    padding: 10px;
+}
+.imgdata {
+    text-align: center;
+    margin: 10px;
+    display: inline-grid;
+    background-color: indigo;
+}
+.error_div {
+    color: red;
+    margin: 5px;
+}
+.txt {
+    box-shadow: 2px 4px 3px rgb(150, 7, 233);
+    background-color: rgb(237, 232, 241);
+}
+.txt:focus{
+    background-color: oldlace;
+    border: 5px solid indigo;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid indigo;
+    border-radius: 8px;
+    outline: 0;
+    width: 80%;
+    height: 40px;
+}
+.radios {
+    margin: 15px;
+}
+.radios label {
+    padding: 0 10px;
+}
+.sign {
+    text-align: center;
+}
+.sign p {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dark .sign p{
+    color: white;
+}
+.sign img {
+    height: 30px;
+    display: flex;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+.sign label {
+    display: inline-block;
+    border-radius: 12px 34px;
+    border: 4px solid indigo;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: -webkit-center;
+    animation: popup 3s;
+}
+a{
+    color: black;
+    font-weight: 700;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.6);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.mode {
+    text-align: right;
+    margin: 20px;
+}
+.backicon {
+    width: 50px;
+    float: left;
+}
+.nightbtn {
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+.daybtnd {
+    padding: 0; 
+    border: 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.dark {
+    background-color: rgb(33, 1, 56);
+    color: white;
+}
+.dark h1{
+    color: cyan;
+}
+.dark label {
+    border-color: cyan;
+}
+.dark .sign label {
+    background-color: black;
+}
+.dark input{
+    box-shadow: 2px 4px 3px aqua;
+    border-color: cyan;
+    background-color: black;
+}
+.dark .line {
+    border-left: 6px solid cyan;
+    border-style: double;
+}
+.dark ::placeholder {
+    color: white;
+}
+.dark .agreed a{
+    color: cyan;
+}
+.dark a {
+    color: white;
+}
+.dark [type=radio]:checked +img {
+    border-color: cyan;
+}
+.dark button{
+    background-color: cyan;
+}
+.dark .git{
+    border: 1px solid white;
+}
+.dark .backicon {
+    border-radius: 12px;
+    background-color: cyan;
+}
+.dark1 {
+    background-color: indigo;
+}
+.dark1 .imgdata {
+    background-color: rgb(29, 67, 84);
+}
+.dark1 h3 {
+    color: white;
+}
+.dark1 .left img{
+    background-color: indigo;
+}
+.dark1 .right img{
+    background-color: indigo;
+}
+.dark1 .backicon {
+    background-color: white;
+    border-radius: 12px;
+}
+.caption {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.active {
+    background-color: #717171;
+}
+.slideshow {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    border: 6px solid black;
+    border-bottom: 0px;
+    box-shadow: 2px 2px 4px black;
+}
+.images {
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+}
+.images1 {
+    position: relative;
+    width: auto;
+    height: 200px;
+    vertical-align: middle;
+}
+.main1 div {
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px black;
+    margin: 10px;
+    display: inline-block;
+}
+.main1 p {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+.sect {
+    text-align: center;
+}
+.dark1 p {
+    color: white;
+}
